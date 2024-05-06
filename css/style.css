@@ -101,7 +101,7 @@ body {
   display: flex;
   justify-content: center;
   gap: 20px;
-  width: 90% !important;
+  width: 100% !important;
   margin-bottom: 40px ;
 }
 .card {
@@ -214,6 +214,9 @@ body {
     grid-template-columns: 1fr;
   }
   .container {
+    flex-wrap: wrap;
+  }
+  .price-ser {
     flex-wrap: wrap;
   }
   
